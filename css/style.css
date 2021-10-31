@@ -1,0 +1,146 @@
+body {
+  background-color: #fff;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Cover side */
+
+.cover-side {
+  width: 600px;
+  height: 782px;
+  background: url(..//img/Cover.jpg);
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 326px 158px;
+}
+
+.cover-side h1 {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  margin: 0 0 24px;
+}
+
+.top-blog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0;
+  width: 164px;
+  background: #1E90FF;
+  border: none;
+  box-sizing: border-box;
+}
+
+.top-blog img {
+  margin-right: 12px;
+  height: 20px;
+  width: 19px;
+}
+
+.top-blog p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+/* Articles */
+
+.articles {
+  box-sizing: border-box;
+  padding: 54px;
+  width: 600px;
+  height: 782px;
+  background: #FEFEFE;
+}
+
+.articles h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 2px;
+  color: #222222;
+  margin: 0 0 24px;
+}
+
+.articles hr {
+  margin-bottom: 24px;
+  width: 490px;
+  height: 1px;
+  background-color: #999999;
+  border: none;
+}
+
+.art-box {
+  display: flex;
+  align-items: center;
+}
+
+.art-box-img {
+  margin: 0 16px 10px 0;
+  width: 160px;
+  height: 90px;
+  border-radius: 4px;
+}
+
+.art-title a {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #222222;
+}
+
+.art-info {
+  display: flex;
+  align-items: center;
+}
+
+.art-info img:first-child {
+  width: 14px;
+  height: 14px;
+}
+
+.art-info img:last-child {
+  width: 15px;
+  height: 10px;
+}
+
+.art-info p {
+  width: 95 px;
+  margin-left: 5px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #888888;
+}
+
+.more-upload {
+  margin-top: 13px;
+  padding: 12px 0;
+  color: #FFFFFF;
+  background: #1E90FF;
+  border-radius: 4px;
+  display: block;
+  text-align: center;
+}
