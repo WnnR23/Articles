@@ -22,12 +22,20 @@ a {
 /* Cover side */
 
 .cover-side {
-  width: 600px;
-  height: 782px;
   background: url(..//img/Cover.jpg);
   background-size: cover;
+  width: 600px;
+  height: 782px;
+}
+
+.cover-opacity {
   box-sizing: border-box;
   padding: 326px 158px;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #0000004D;
 }
 
 .cover-side h1 {
@@ -48,6 +56,15 @@ a {
   background: #1E90FF;
   border: none;
   box-sizing: border-box;
+  transition: 0.3s ease;
+}
+
+.top-blog:hover {
+  background: #1E90FFCC;
+}
+
+.top-blog:active {
+  background: #1E90FF99
 }
 
 .top-blog img {
@@ -108,6 +125,15 @@ a {
   line-height: 22px;
   letter-spacing: 2px;
   color: #222222;
+  transition: 0.3s ease;
+}
+
+.art-title a:hover {
+  color: #1E90FF;
+}
+
+.art-title a:active {
+  color: #1E90FF99;
 }
 
 .art-info {
@@ -115,12 +141,24 @@ a {
   align-items: center;
 }
 
-.art-info img:first-child {
+.art-info-time {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.art-info-time img {
   width: 14px;
   height: 14px;
 }
 
-.art-info img:last-child {
+.art-info-watches {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.art-info-watches img {
   width: 15px;
   height: 10px;
 }
@@ -136,6 +174,7 @@ a {
 }
 
 .more-upload {
+  text-transform: capitalize;
   margin-top: 13px;
   padding: 12px 0;
   color: #FFFFFF;
@@ -143,4 +182,13 @@ a {
   border-radius: 4px;
   display: block;
   text-align: center;
+  transition: 0.3s;
+}
+
+.more-upload:hover {
+  opacity: 0.8;
+}
+
+.more-upload:active {
+  opacity: 0.6;
 }
