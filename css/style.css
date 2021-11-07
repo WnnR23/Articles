@@ -137,40 +137,39 @@ a {
 }
 
 .art-info {
+  position: relative;
   display: flex;
   align-items: center;
 }
 
-.art-info-time {
-  width: 120px;
-  display: flex;
-  align-items: center;
-}
-
-.art-info-time img {
+.time-icon {
+  background: url(..//img/Vector-time.png);
+  background-size: cover;
   width: 14px;
   height: 14px;
 }
 
-.art-info-watches {
-  width: 120px;
-  display: flex;
-  align-items: center;
-}
-
-.art-info-watches img {
+.watches-icon {
+  position: absolute;
+  left: 120px;
+  background: url(..//img/Vector-eye.png);
+  background-size: cover;
   width: 15px;
   height: 10px;
 }
 
 .art-info p {
-  width: 95 px;
   margin-left: 5px;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
   color: #888888;
+}
+
+.art-info p:last-child {
+  position: absolute;
+  left: 140px;
 }
 
 .more-upload {
